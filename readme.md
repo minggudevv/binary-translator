@@ -8,10 +8,6 @@ Binary Translator is a simple web application that allows you to translate text 
 - Translate binary code to text.
 - User-friendly interface.
 
-## Live Demo
-
-You can try the live demo [here](https://dev.rzztec.com/binary-translator/).
-
 ## Technologies Used
 
 - HTML
