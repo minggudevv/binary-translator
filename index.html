@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Translator</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 h-screen flex items-center justify-center">
+    <div class="max-w-lg w-full bg-white p-8 rounded shadow-md">
+        <h1 class="text-3xl font-bold mb-4 text-center">Binary Translator</h1>
+        <div class="mb-4 border-2 border-indigo-500 rounded-md">
+            <label for="textInput" class="block text-sm font-semibold text-gray-700 px-2">Teks atau Biner</label>
+            <textarea id="textInput" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-transparent rounded-md px-4 py-2" placeholder="Masukkan teks atau kode biner"></textarea>
+        </div>
+        <div class="mb-4 border-2 border-indigo-500 rounded-md">
+            <label for="output" class="block text-sm font-semibold text-gray-700 px-2">Hasil</label>
+            <textarea id="output" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-transparent rounded-md px-4 py-2" placeholder="Hasil" readonly></textarea>
+        </div>
+        <div class="flex items-center justify-between">
+            <button id="switchBtn" class="bg-indigo-500 text-white py-2 px-4 rounded-md hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Teks ke Biner</button>
+            <button id="translateBtn" class="bg-indigo-500 text-white py-2 px-4 rounded-md hover:bg-indigo-600 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">Terjemahkan</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
