@@ -10,7 +10,7 @@ Binary Translator is a simple web application that allows you to translate text 
 
 ## Live Demo
 
-You can try the live demo [here](https://minggudevv.github.io/binary-translator/).
+You can try the live demo [here](https://dev.rzztec.com/binary-translator/).
 
 ## Technologies Used
 
