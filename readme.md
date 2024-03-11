@@ -1,6 +1,6 @@
 Berikut adalah contoh isi file `README.md` yang berisi informasi lengkap untuk repositori "binary-translator" di akun GitHub "minggudevv":
 
-```markdown
+
 # Binary Translator
 
 Binary Translator is a simple web application that allows you to translate text to binary and vice versa.
@@ -56,4 +56,3 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
-```
